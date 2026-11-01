@@ -1,13 +1,33 @@
-# ????
+# ===== 编译产物 =====
 *.exe
 *.obj
 *.o
 *.out
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.recipe
+*.tlog
+*.lastbuildstate
+*.log
 
-# ???
+# ===== Visual Studio 缓存与用户配置 =====
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== 编辑器 =====
 .vscode/
 .idea/
 
-# ??
+# ===== 系统文件 =====
 Thumbs.db
 .DS_Store
+desktop.ini
